@@ -1,0 +1,134 @@
+<style>
+table#table {
+ border-spacing: 5px;
+ font-weight: Bold;
+ border-collapse: Collapse;
+}
+
+table#table tr th {
+ 
+}
+
+table#table tr th,
+table#table tr td {
+ border: Solid 1px #01070E;
+}
+
+table#table tr th,
+table#table tr td {
+ padding: 10px;
+}
+
+table#table tr td {
+ text-align: center;
+}
+
+table#table tr:nth-child(even) {
+background-color: #92B6E0;
+
+ }
+table#table tr:nth-child(odd) {
+}
+table#table th {
+ position: Sticky;
+ top: 0;
+}
+
+main h1 {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background: none;
+	
+}
+
+td {
+    font-size: 100px;
+    font-family: "Arial";
+    font-weight: bolder;
+    color: red;
+}
+
+
+</style>
+
+
+
+<main>
+<table id="table">
+ <caption>Beschriftung</caption>
+ <tbody>
+ 	  <tr>
+      <th width=500  height =200 ><font size=50>Schweissen</font></th>
+      <th width=500>Kopfzelle: 1. Zeile, 2. Spalte</th>
+      <th width=500  >Kopfzelle: 1. Zeile, 3. Spalte</th>
+    </tr>
+ <tr height =200>
+  <td><style="text-align: center; color: green;">Attribut</style></td>
+  <td>na</td>
+  <td>sowas</td>
+ </tr>
+ <tr height =200>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr height =200>
+<td style="text-align: center; color: green;">  Dieser Absatz wird über ein style-Attribut formatiert. </td>
+  <td bgcolor=#CCFFCC></td>
+  <td><style="font-size:80">FontSize</style></td>
+ </tr>
+ <tr >
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+</tbody>
+</table>
+</main>
+<p style="text-align: center; color: green;">
+  Dieser Absatz wird über ein style-Attribut formatiert. 
+</p>
+<table border>
+	  <tr>
+      <th width=500>Kopfzelle: 1. Zeile, 1. Spalte</th>
+      <th>Kopfzelle: 1. Zeile, 2. Spalte</th>
+      <th>Kopfzelle: 1. Zeile, 3. Spalte</th>
+    </tr>
+    <tr bgcolor=#CCFFFF>
+      <td>Zeile 1 Spalte 1 = hellblau (gilt für Zeile)</td>
+      <td>Zeile 1 Spalte 2 = hellblau (gilt für Zeile)</td>
+	  <td>Zeile 1 Spalte 2 = hellblau (gilt für Zeile)</td>
+    </tr>
+    <tr bgcolor=#CCFFCC>
+      <td bgcolor=#CCFFCC>Zeile 2 Spalte 1 = hellgrün (gilt für diese Zelle)</td>
+      <td bgcolor=#FFCCFF>Zeile 2 Spalte 2 = hellviolett (gilt für diese Zelle)</td>
+	  <td>Zeile 1 Spalte 2 = hellblau (gilt für Zeile)</td>
+    </tr>
+</table>
+
+
+<table border bgcolor=#CCFFFF bordercolor=#000099>
+    <tr>
+      <td>Zeile 1 Spalte 1 = hellblau, Rahmen und Gitternetz dunkelblau</td>
+      <td>Zeile 1 Spalte 2 = hellblau, Rahmen und Gitternetz dunkelblau</td>
+    </tr>
+    <tr>
+      <td>Zeile 2 Spalte 1 = hellblau, Rahmen und Gitternetz dunkelblau</td>
+      <td>Zeile 2 Spalte 2 = hellblau, Rahmen und Gitternetz dunkelblau</td>
+    </tr>
+</table>
+Beispiel 2:
+<table border=4 bgcolor=#CCFFCC bordercolordark=#660000 bordercolorlight=#FF0000>
+    <tr>
+      <td>Zeile 1 Spalte 1 = hellgrün, Rahmen und Gitternetz dunkelrot/rot</td>
+      <td>Zeile 1 Spalte 2 = hellgrün, Rahmen und Gitternetz dunkelrot/rot</td>
+    </tr>
+    <tr>
+      <td>Zeile 2 Spalte 1 = hellgrün, Rahmen und Gitternetz dunkelrot/rot</td>
+      <td>Zeile 2 Spalte 2 = hellgrün, Rahmen und Gitternetz dunkelrot/rot</td>
+    </tr>
+</table>
+
+
+
